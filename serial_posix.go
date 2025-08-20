@@ -1,4 +1,5 @@
-// +build darwin linux freebsd openbsd netbsd
+//go:build darwin || linux || freebsd || openbsd || netbsd || sylixos
+// +build darwin linux freebsd openbsd netbsd sylixos
 
 package serial
 
